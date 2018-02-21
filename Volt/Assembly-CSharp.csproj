@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\scripts\autoVacuum.cs" />
      <Compile Include="Assets\scripts\canap.cs" />
      <Compile Include="Assets\scripts\change.cs" />
      <Compile Include="Assets\scripts\coll.cs" />

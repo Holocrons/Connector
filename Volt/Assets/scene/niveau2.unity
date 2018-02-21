@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 5218807}
   - component: {fileID: 5218805}
   - component: {fileID: 5218806}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: item02_40x40
   m_TagString: salt
   m_Icon: {fileID: 0}
@@ -215,7 +215,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3adeab310c05d9b47b7d80d5992e6b8e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -233,7 +233,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 5218804}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.28, y: 3.63, z: -0.1424962}
+  m_LocalPosition: {x: -4.527, y: 3.63, z: -0.1424962}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 491403036}
@@ -474,7 +474,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -488,7 +488,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.3, y: 0.5}
+  m_Size: {x: 0.5, y: 0.6}
   m_EdgeRadius: 0
 --- !u!114 &82836283
 MonoBehaviour:
@@ -633,11 +633,6 @@ Transform:
   m_Father: {fileID: 1838323758}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &140284551 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1790654900516132, guid: ee630e1636bc53a469d66e74be2b8544,
-    type: 2}
-  m_PrefabInternal: {fileID: 689194036}
 --- !u!1 &188381696
 GameObject:
   m_ObjectHideFlags: 0
@@ -949,6 +944,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e729d2ca41ef3e4409084bde8ab7d650, type: 2}
+    - target: {fileID: 1975901234096042, guid: c8213627e7a84b842942d5cdba321e9c, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8213627e7a84b842942d5cdba321e9c, type: 2}
   m_IsPrefabParent: 0
@@ -1036,7 +1035,7 @@ GameObject:
   - component: {fileID: 339437274}
   - component: {fileID: 339437272}
   - component: {fileID: 339437273}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: item01_40x72
   m_TagString: salt
   m_Icon: {fileID: 0}
@@ -1128,7 +1127,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 2e146ee8a80e4ca4fbb37beef180b698, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1746,7 +1745,7 @@ GameObject:
   - component: {fileID: 545021971}
   - component: {fileID: 545021973}
   - component: {fileID: 545021972}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: bulle_usb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2130,7 +2129,7 @@ GameObject:
   - component: {fileID: 607663405}
   - component: {fileID: 607663403}
   - component: {fileID: 607663404}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: item03_40x48
   m_TagString: salt
   m_Icon: {fileID: 0}
@@ -2222,7 +2221,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 652b9a2a49aa6f447aa231af293bc57e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2284,7 +2283,7 @@ GameObject:
   - component: {fileID: 629437176}
   - component: {fileID: 629437175}
   - component: {fileID: 629437177}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: etageres_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2393,58 +2392,6 @@ Transform:
   m_Father: {fileID: 553049875}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &689194036
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4302192366617860, guid: ee630e1636bc53a469d66e74be2b8544, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 2.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 4302192366617860, guid: ee630e1636bc53a469d66e74be2b8544, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -3.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 4302192366617860, guid: ee630e1636bc53a469d66e74be2b8544, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4302192366617860, guid: ee630e1636bc53a469d66e74be2b8544, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4302192366617860, guid: ee630e1636bc53a469d66e74be2b8544, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4302192366617860, guid: ee630e1636bc53a469d66e74be2b8544, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4302192366617860, guid: ee630e1636bc53a469d66e74be2b8544, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4302192366617860, guid: ee630e1636bc53a469d66e74be2b8544, type: 2}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 212410136308702304, guid: ee630e1636bc53a469d66e74be2b8544,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-    - target: {fileID: 114561470941340832, guid: ee630e1636bc53a469d66e74be2b8544,
-        type: 2}
-      propertyPath: Bulle
-      value: 
-      objectReference: {fileID: 140284551}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: ee630e1636bc53a469d66e74be2b8544, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &716532235
 GameObject:
   m_ObjectHideFlags: 0
@@ -2579,7 +2526,7 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.2}
   m_EdgeRadius: 0
   m_Points:
   - {x: -3.7026877, y: 1.8378696}
@@ -2934,7 +2881,7 @@ GameObject:
   - component: {fileID: 764360887}
   - component: {fileID: 764360886}
   - component: {fileID: 764360888}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: etageres_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3497,7 +3444,7 @@ GameObject:
   - component: {fileID: 991392836}
   - component: {fileID: 991392835}
   - component: {fileID: 991392837}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: etageres_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3555,7 +3502,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 991392834}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.31, y: 0.05, z: 0}
+  m_LocalPosition: {x: 0.6200002, y: 0.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3836,7 +3783,7 @@ GameObject:
   - component: {fileID: 1088919256}
   - component: {fileID: 1088919254}
   - component: {fileID: 1088919255}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: item05_32x64
   m_TagString: salt
   m_Icon: {fileID: 0}
@@ -3968,7 +3915,7 @@ MonoBehaviour:
   clip: {fileID: 8300000, guid: a640a997fce67094997b471005c11e91, type: 3}
   coll:
   - {fileID: 1950530679}
-  - {fileID: 1612398805}
+  - {fileID: 1890020121}
   - {fileID: 2119046452}
 --- !u!61 &1140630757
 BoxCollider2D:
@@ -4555,7 +4502,7 @@ GameObject:
   - component: {fileID: 1452822288}
   - component: {fileID: 1452822286}
   - component: {fileID: 1452822287}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: item04_24x48
   m_TagString: salt
   m_Icon: {fileID: 0}
@@ -4646,7 +4593,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 651e0fb940d89b14d9c4e30772fb0913, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5158,7 +5105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1612398807}
   - component: {fileID: 1612398806}
-  - component: {fileID: 1612398808}
+  - component: {fileID: 1612398809}
   m_Layer: 2
   m_Name: lavabo_176x192
   m_TagString: Untagged
@@ -5199,7 +5146,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 3c9e4da6f3ffa6a4a98d71ee3c3910d7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5223,8 +5170,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1612398808
-BoxCollider2D:
+--- !u!60 &1612398809
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -5235,7 +5182,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.016687155, y: -0.24613523}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5245,9 +5192,16 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.5263801, y: 1.4277296}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.38484108, y: 0.46564376}
+      - {x: 0.23490047, y: 0.13860178}
+      - {x: -0.44841942, y: 0.13884687}
+      - {x: -0.57681215, y: 0.48061967}
+      - {x: -0.8003443, y: 0.48181474}
+      - {x: -0.81553847, y: -0.9389672}
+      - {x: 0.71543026, y: -0.91302013}
+      - {x: 0.70560277, y: 0.4670732}
 --- !u!1 &1621059442
 GameObject:
   m_ObjectHideFlags: 0
@@ -5394,6 +5348,48 @@ Transform:
   m_Father: {fileID: 779185023}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1642817070
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4302192366617860, guid: ee630e1636bc53a469d66e74be2b8544, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4302192366617860, guid: ee630e1636bc53a469d66e74be2b8544, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4302192366617860, guid: ee630e1636bc53a469d66e74be2b8544, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4302192366617860, guid: ee630e1636bc53a469d66e74be2b8544, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4302192366617860, guid: ee630e1636bc53a469d66e74be2b8544, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4302192366617860, guid: ee630e1636bc53a469d66e74be2b8544, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4302192366617860, guid: ee630e1636bc53a469d66e74be2b8544, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4302192366617860, guid: ee630e1636bc53a469d66e74be2b8544, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ee630e1636bc53a469d66e74be2b8544, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1668914272
 GameObject:
   m_ObjectHideFlags: 0
@@ -5652,7 +5648,7 @@ GameObject:
   - component: {fileID: 1715173577}
   - component: {fileID: 1715173579}
   - component: {fileID: 1715173580}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: its_salt
   m_TagString: salt
   m_Icon: {fileID: 0}
@@ -5692,7 +5688,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 7a4b7f84449895a44a083b3fc257a5c0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5710,7 +5706,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1715173576}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.48, y: 3.66, z: -0.1424962}
+  m_LocalPosition: {x: -4.967, y: 3.66, z: -0.1424962}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 491403036}
@@ -6119,11 +6115,6 @@ Prefab:
       propertyPath: obj
       value: 
       objectReference: {fileID: 747385682}
-    - target: {fileID: 212574112676534970, guid: 61b9191c2826d5d41a0be6b7980dd0ed,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 61b9191c2826d5d41a0be6b7980dd0ed, type: 2}
   m_IsPrefabParent: 0
@@ -6131,7 +6122,18 @@ Prefab:
 GameObject:
   m_PrefabParentObject: {fileID: 1296828403043100, guid: ee630e1636bc53a469d66e74be2b8544,
     type: 2}
-  m_PrefabInternal: {fileID: 689194036}
+  m_PrefabInternal: {fileID: 1642817070}
+--- !u!114 &1890020129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1890020121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7835e3567c1a1964e8e3edf717820d10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1950530679
 GameObject:
   m_ObjectHideFlags: 0
@@ -6537,7 +6539,7 @@ GameObject:
   - component: {fileID: 2086846870}
   - component: {fileID: 2086846868}
   - component: {fileID: 2086846869}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: item08_40x64
   m_TagString: salt
   m_Icon: {fileID: 0}
@@ -6630,7 +6632,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: fa892219091f7e1489614d0e5e860e08, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6665,7 +6667,7 @@ GameObject:
   - component: {fileID: 2090111695}
   - component: {fileID: 2090111693}
   - component: {fileID: 2090111694}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: item07_32x64
   m_TagString: salt
   m_Icon: {fileID: 0}

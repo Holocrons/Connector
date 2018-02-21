@@ -27,6 +27,7 @@ public class fly : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		rb.bodyType = RigidbodyType2D.Dynamic;
 		if (source.isPlaying == false)
 			source.PlayOneShot(clip, 1f);
 		anim.SetBool("deco", true);
@@ -64,6 +65,7 @@ public class fly : MonoBehaviour {
 			anim.SetBool("deco", false);
 			act = false;
 			GetComponent<fly>().enabled = false;
+			//rb.bodyType = RigidbodyType2D.Kinematic;
 		}
 	}
 }

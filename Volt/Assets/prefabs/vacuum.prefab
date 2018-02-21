@@ -20,11 +20,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4302192366617860}
   - component: {fileID: 212410136308702304}
-  - component: {fileID: 61076247458037564}
   - component: {fileID: 50127756664278662}
   - component: {fileID: 114561470941340832}
   - component: {fileID: 114504767760267938}
   - component: {fileID: 61803084005266088}
+  - component: {fileID: 61076247458037564}
   m_Layer: 0
   m_Name: vacuum
   m_TagString: Usb
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 4330157689630298}
   - component: {fileID: 212938763290602006}
   - component: {fileID: 95339210828753584}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: bulle_usb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1296828403043100}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.6, y: -3.1512504, z: 0}
+  m_LocalPosition: {x: 2.07, y: -3.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4330157689630298}
@@ -174,6 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cea2c43f7d51274d83b69b577560912, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 0}
 --- !u!114 &114561470941340832
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -185,7 +186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dfe23079856dfb48bd3f2687a3d3fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Bulle: {fileID: 0}
+  Bulle: {fileID: 1790654900516132}
   obj: []
   curentPath: []
   path: []

@@ -6,7 +6,7 @@ public class vac : MonoBehaviour {
 
 	private bool right = true;
 	public static bool ok = false;
-	public Rigidbody2D rb;
+	private Rigidbody2D rb;
 
 	// Use this for initialization
 	void Start () {
