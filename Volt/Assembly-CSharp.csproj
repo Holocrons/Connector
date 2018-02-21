@@ -58,6 +58,7 @@
      <Compile Include="Assets\scripts\color.cs" />
      <Compile Include="Assets\scripts\cursor.cs" />
      <Compile Include="Assets\scripts\dock.cs" />
+     <Compile Include="Assets\scripts\dontTurn.cs" />
      <Compile Include="Assets\scripts\fin.cs" />
      <Compile Include="Assets\scripts\fly.cs" />
      <Compile Include="Assets\scripts\mainMenu\changeScene_StartToControl.cs" />

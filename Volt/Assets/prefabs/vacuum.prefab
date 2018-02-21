@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114504767760267938}
   - component: {fileID: 61803084005266088}
   - component: {fileID: 61076247458037564}
+  - component: {fileID: 114637829454648640}
   m_Layer: 0
   m_Name: vacuum
   m_TagString: Usb
@@ -42,6 +43,7 @@ GameObject:
   - component: {fileID: 4330157689630298}
   - component: {fileID: 212938763290602006}
   - component: {fileID: 95339210828753584}
+  - component: {fileID: 114112761085812570}
   m_Layer: 2
   m_Name: bulle_usb
   m_TagString: Untagged
@@ -56,7 +58,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1296828403043100}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.07, y: -3.35, z: 0}
+  m_LocalPosition: {x: 1.16, y: -3.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4330157689630298}
@@ -70,7 +72,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1790654900516132}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.41, y: 0.965, z: 0}
+  m_LocalPosition: {x: 0.059, y: 0.973, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4302192366617860}
@@ -163,6 +165,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114112761085812570
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790654900516132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78e59272474fe0a4cba90d735f759bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114504767760267938
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -174,7 +187,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cea2c43f7d51274d83b69b577560912, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
 --- !u!114 &114561470941340832
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -193,6 +205,17 @@ MonoBehaviour:
   path1: []
   path2: []
   path3: []
+--- !u!114 &114637829454648640
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1296828403043100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7835e3567c1a1964e8e3edf717820d10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212410136308702304
 SpriteRenderer:
   m_ObjectHideFlags: 1

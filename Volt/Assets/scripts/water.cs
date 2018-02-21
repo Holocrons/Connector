@@ -8,13 +8,26 @@ public class water : MonoBehaviour {
 	private Animator anim;
 	public AudioClip clip;
 	private AudioSource source;
+	public GameObject elec;
+	private bool go = false;
+	private float timer;
 
 	// Use this for initialization
 	void Start () {
 		source = GetComponent<AudioSource>();
 		anim = GetComponent<Animator>();
+
 	}
 	
+	void Update()
+	{
+		if (go == true)
+			{
+				if (timer < Time.time)
+					elec.GetComponent<Animator>().SetBool("water", true);
+			}
+	}
+
 	void OnCollisionEnter2D(Collision2D other)
 	{
 		if (other.gameObject.tag == "salt")
@@ -23,6 +36,8 @@ public class water : MonoBehaviour {
 			if (source.isPlaying == false)
 				source.PlayOneShot(clip, 1f);
 			anim.SetBool("go", true);
+			timer = Time.time + 0.3f;
+			go = true;
 		}
 	}
 }
