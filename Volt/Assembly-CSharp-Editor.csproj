@@ -51,16 +51,45 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\2DLightAsset\Scripts\2DLight\Editor\DynamicLightEditor.cs" />
-     <Compile Include="Assets\2DLightAsset\Scripts\2DLight\Editor\DynamicLightMenu.cs" />
-     <Compile Include="Assets\2DLightAsset\Scripts\2DLight\Editor\EditorUtils.cs" />
+     <Compile Include="Assets\Light2D\Editor\Light2DMenu.cs" />
+     <Compile Include="Assets\Light2D\Editor\LightingSystemCreationWindow.cs" />
+     <Compile Include="Assets\Light2D\Editor\LightingSystemEditor.cs" />
+     <Compile Include="Assets\Light2D\Examples\Editor\BlockTilingInfoDrawer.cs" />
+     <Compile Include="Assets\Light2D\Examples\Editor\EditorCameraWindow.cs" />
+     <Compile Include="Assets\Light2D\Examples\Editor\HingeAutoRotatorEditor.cs" />
+     <Compile Include="Assets\Light2D\Examples\Editor\HingeJointUtil.cs" />
+     <Compile Include="Assets\Light2D\Examples\Editor\LandingLegEditor.cs" />
+     <Compile Include="Assets\Light2D\Examples\Editor\Point2Drawer.cs" />
+     <Compile Include="Assets\Light2D\Examples\Editor\ReadOnlyDrawer.cs" />
+     <Compile Include="Assets\Light2D\Examples\Editor\ScriptableObjectCreatorWindow.cs" />
      <None Include="Assets\8-Bit_Action_Free\Readme.txt" />
-     <None Include="Assets\2DLightAsset\Shaders\Gradient-NoTexture-Radial-SingleColor-ToTransparent-RegularUV-AlphaBlend.shader" />
-     <None Include="Assets\2DLightAsset\Shaders\NoTexture.shader" />
-     <None Include="Assets\2DLightAsset\Shaders\Gradient-ZFighting.shader" />
- <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/Wick_r/Desktop/Misc/GGJ_2018/Volt/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
- </Reference>
+     <None Include="Assets\Light2D\Resources\Shaders\FastBlur.shader" />
+     <None Include="Assets\Light2D\Resources\Shaders\Light70.shader" />
+     <None Include="Assets\Light2D\changelog.txt" />
+     <None Include="Assets\Light2D\Resources\Shaders\LightIgnoreObstacles.shader" />
+     <None Include="Assets\Light2D\Resources\Shaders\NormalMap.shader" />
+     <None Include="Assets\Light2D\Resources\Shaders\Light9.shader" />
+     <None Include="Assets\Light2D\Resources\Shaders\NormalMappedLight.shader" />
+     <None Include="Assets\Light2D\Resources\Shaders\Light60.shader" />
+     <None Include="Assets\Light2D\Resources\Shaders\LightBase.cginc" />
+     <None Include="Assets\Light2D\Resources\Shaders\LightBlender.shader" />
+     <None Include="Assets\Light2D\Resources\Shaders\Light1.shader" />
+     <None Include="Assets\Light2D\Resources\Shaders\Light50.shader" />
+     <None Include="Assets\Light2D\Resources\Shaders\Light80.shader" />
+     <None Include="Assets\Light2D\Resources\Shaders\Light20.shader" />
+     <None Include="Assets\Light2D\Resources\Shaders\AmbientLightComputer.shader" />
+     <None Include="Assets\Light2D\Resources\Shaders\Light40.shader" />
+     <None Include="Assets\Light2D\Resources\Shaders\Light90.shader" />
+     <None Include="Assets\Light2D\Resources\Shaders\LightOverlaySingleCamera.shader" />
+     <None Include="Assets\Light2D\Examples\Resources\Shaders\TransparentVertexColor.shader" />
+     <None Include="Assets\Light2D\Resources\Shaders\LightOverlay.shader" />
+     <None Include="Assets\Light2D\Resources\Shaders\TransparentDualColorNormalMapped.shader" />
+     <None Include="Assets\Light2D\Examples\Resources\Shaders\Noise.cginc" />
+     <None Include="Assets\Light2D\Resources\Shaders\TransparentNormalMapped.shader" />
+     <None Include="Assets\Light2D\Resources\Shaders\AlphaReplace.shader" />
+     <None Include="Assets\Light2D\Resources\Shaders\Light30.shader" />
+     <None Include="Assets\Light2D\Resources\Shaders\ObstacleTexturePostProcessor.shader" />
+     <None Include="Assets\Light2D\Resources\Shaders\LightAuto.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

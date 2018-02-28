@@ -27,7 +27,7 @@ public class vac : MonoBehaviour {
 		}
 		else
 			rb.velocity = new Vector2(0, 0);
-		if (right == true && transform.localScale.x < 0 || right == false && transform.localScale.x > 0)
+		if (ok == true && right == true && transform.localScale.x < 0 || right == false && transform.localScale.x > 0)
 			flip();
 	}
 	

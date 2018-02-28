@@ -20,14 +20,12 @@ public class playerManager : MonoBehaviour {
 	public AudioClip clip2;
 	private AudioSource source;
 
-	// Use this for initialization
 	void Start () {
 		transform.position = start.GetComponent<Transform>().position;
 		anim = GetComponent<Animator>();
 		source = GetComponent<AudioSource>();
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.R))
 			SceneManager.LoadScene(next - 1);
