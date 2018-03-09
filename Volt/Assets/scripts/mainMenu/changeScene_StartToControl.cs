@@ -8,7 +8,7 @@ public class changeScene_StartToControl : MonoBehaviour {
     //Change scene
     public void ChangeSceneToAnother_Single(string newSceneName)
     {
-        SceneManager.LoadScene(newSceneName, LoadSceneMode.Single);
+        SceneManager.LoadScene(1, LoadSceneMode.Single);
     }
 
 }

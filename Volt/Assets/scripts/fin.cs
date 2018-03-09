@@ -10,6 +10,6 @@ public class fin : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other)
 	{
 		if (other.gameObject == lol)
-			SceneManager.LoadScene(4);
+			SceneManager.LoadScene(3);
 	}
 }
