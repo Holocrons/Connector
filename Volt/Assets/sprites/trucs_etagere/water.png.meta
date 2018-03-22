@@ -1,10 +1,12 @@
 fileFormatVersion: 2
-guid: 3c9e4da6f3ffa6a4a98d71ee3c3910d7
-timeCreated: 1521014464
+guid: 7205cb71c70a951458cf3b2799717cbb
+timeCreated: 1521030916
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: lavabo_176x192_0
+    21300000: water_0
+    21300002: water_1
+    21300004: water_2
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -79,13 +81,41 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lavabo_176x192_0
+      name: water_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 176
-        height: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: water_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: water_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

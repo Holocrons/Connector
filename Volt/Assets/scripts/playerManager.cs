@@ -79,7 +79,7 @@ public class playerManager : MonoBehaviour {
 		}
 		if (tp != null && GameObject.Find(tp).tag == "Usb" && rc == true)
 			{
-				if (curent.GetComponent<vac>() != null)
+				if (curent.GetComponent<vac>() != null || curent.GetComponent<moveBoat>() != null)
 					curent = GameObject.Find(tp);
 				teleport(GameObject.Find(tp));
 			}
@@ -122,11 +122,15 @@ public class playerManager : MonoBehaviour {
 	void use()
 	{
 		if (curent.GetComponent<vac>() != null){
-			transform.position = curent.transform.position;
 			vac.ok = true;
 		}
 		else 
 			vac.ok = false;
+		if (curent.GetComponent<moveBoat>() != null){
+			moveBoat.ok = true;
+		}
+		else 
+			moveBoat.ok = false;
 		if (Input.GetKeyDown(KeyCode.E))
 		{
 			if (curent.GetComponent<canap>() != null)
@@ -135,12 +139,16 @@ public class playerManager : MonoBehaviour {
 				curent.GetComponent<dock>().Use();
 			else if (curent.GetComponent<plaque>() != null)
 				curent.GetComponent<plaque>().Use();
+			else if (curent.GetComponent<toaster>() != null)
+				curent.GetComponent<toaster>().Use();
+			else if (curent.GetComponent<phone>() != null)
+				curent.GetComponent<phone>().Use();
 			else if (curent.GetComponentInChildren<color>() != null)
 			{
 				if (curent.GetComponentInChildren<color>().Use() == -1)
-					{
+				{
 					curent.tag = "Usb";	
-					}
+				}
 			}
 		}
 	}

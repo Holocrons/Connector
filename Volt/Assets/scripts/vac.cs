@@ -7,6 +7,7 @@ public class vac : MonoBehaviour {
 	private bool right = true;
 	public static bool ok = false;
 	private Rigidbody2D rb;
+	public GameObject player;
 
 	// Use this for initialization
 	void Start () {
@@ -15,20 +16,24 @@ public class vac : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKey(KeyCode.D) && ok == true)
+		if (ok == true)
 		{
-			rb.velocity = new Vector2(5f, 0);
-			right = true;
-		}
-		else if (Input.GetKey(KeyCode.Q) && ok == true)
-		{
-			rb.velocity = new Vector2(-5f, 0);
-			right = false;
-		}
-		else
-			rb.velocity = new Vector2(0, 0);
-		if (ok == true && right == true && transform.localScale.x < 0 || right == false && transform.localScale.x > 0)
-			flip();
+			player.transform.position = transform.position;
+			if (Input.GetKey(KeyCode.D))
+			{
+				rb.velocity = new Vector2(5f, 0);
+				right = true;
+			}
+			else if (Input.GetKey(KeyCode.Q))
+			{
+				rb.velocity = new Vector2(-5f, 0);
+				right = false;
+			}
+			else
+				rb.velocity = new Vector2(0, 0);
+			if (right == true && transform.localScale.x < 0 || right == false && transform.localScale.x > 0)
+				flip();
+			}
 	}
 	
 	void flip()

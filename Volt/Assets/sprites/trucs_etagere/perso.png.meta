@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3c9e4da6f3ffa6a4a98d71ee3c3910d7
-timeCreated: 1521014464
+guid: 6c9cba44d2f547449a23fdd14cfb0b5a
+timeCreated: 1520776595
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: lavabo_176x192_0
+    21300000: perso_0
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -79,13 +79,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lavabo_176x192_0
+      name: perso_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 176
-        height: 192
+        x: 62
+        y: 964
+        width: 154
+        height: 295
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

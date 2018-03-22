@@ -30,17 +30,27 @@ public class cursor : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other)
 	{	
+		Animator[] tmp;
 		if (other.tag == "Usb" || other.tag == "non")
 		{
-			other.GetComponentInChildren<Animator>().SetBool("info", true);
+			tmp = other.GetComponentsInChildren<Animator>();
+			if (tmp.Length == 1)
+				tmp[0].SetBool("info", true);
+			else 
+				tmp[1].SetBool("info", true);
 		}
 	}
 
 	void OnTriggerExit2D(Collider2D other)
 	{	
+		Animator[] tmp;
 		if (other.tag == "Usb" || other.tag == "non")
 		{
-			other.GetComponentInChildren<Animator>().SetBool("info", false);
+			tmp = other.GetComponentsInChildren<Animator>();
+			if (tmp.Length == 1)
+				tmp[0].SetBool("info", false);
+			else 
+				tmp[1].SetBool("info", false);
 		}
 	}
 }

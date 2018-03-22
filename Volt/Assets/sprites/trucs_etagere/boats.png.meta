@@ -1,10 +1,12 @@
 fileFormatVersion: 2
-guid: 3c9e4da6f3ffa6a4a98d71ee3c3910d7
-timeCreated: 1521014464
+guid: 3b9a04d0ff1b820428bfb83039a28133
+timeCreated: 1521035591
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: lavabo_176x192_0
+    21300000: boats_0
+    21300002: boats_1
+    21300004: boats_2
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -79,15 +81,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lavabo_176x192_0
+      name: boats_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 176
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 112
+        height: 112
+      alignment: 9
+      pivot: {x: 0.6728395, y: 0.39417985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: boats_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 112
+        height: 112
+      alignment: 9
+      pivot: {x: 0.6816579, y: 0.3959435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: boats_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 112
+        height: 112
+      alignment: 9
+      pivot: {x: 0.6816578, y: 0.3853615}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

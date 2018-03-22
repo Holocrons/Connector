@@ -9,6 +9,7 @@ TagManager:
   - tag
   - salt
   - non
+  - water
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - lightSource
   - lightObstacle
   - abiantLight
-  - 
+  - noColl
   - 
   - 
   - 
