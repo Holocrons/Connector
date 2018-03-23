@@ -20,3 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scene/niveau3.unity
     guid: a7c09e6a38af9ee4ab4b1a588ff95fcb
+  - enabled: 1
+    path: Assets/scene/SelectScene.unity
+    guid: 57089b9a2f4353548a57e8d0cdd9928e
