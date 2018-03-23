@@ -88,6 +88,7 @@
      <Compile Include="Assets\stop.cs" />
      <Compile Include="Assets\toaster.cs" />
      <Compile Include="Assets\touchWater.cs" />
+     <Compile Include="Assets\tuto.cs" />
      <None Include="Assets\8-Bit_Action_Free\Readme.txt" />
      <None Include="Assets\Light2D\Resources\Shaders\FastBlur.shader" />
      <None Include="Assets\Light2D\Resources\Shaders\Light70.shader" />
