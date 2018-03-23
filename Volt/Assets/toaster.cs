@@ -14,6 +14,6 @@ public class toaster : MonoBehaviour {
 	
 	public void Use () {
 		rb.bodyType = RigidbodyType2D.Dynamic;
-		rb.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
+		rb.AddForce(bread.transform.up + bread.transform.forward * 10, ForceMode2D.Impulse);
 	}
 }
