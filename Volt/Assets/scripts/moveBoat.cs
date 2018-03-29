@@ -60,7 +60,7 @@ public class moveBoat : MonoBehaviour {
 		direction.x = sp.transform.position.x - axis.transform.position.x; 
 		direction.y = sp.transform.position.y - axis.transform.position.y; 
 		GameObject tmp = Instantiate(water);
-		source.PlayOneShot(clip, 1f);
+		//source.PlayOneShot(clip, 1f);
 		tmp.transform.position = new Vector2(sp.transform.position.x, sp.transform.position.y); 
 		tmp.GetComponent<Rigidbody2D>().AddForce(direction * 35, ForceMode2D.Impulse);
 	}

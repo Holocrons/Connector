@@ -16,9 +16,8 @@ public class tuto : MonoBehaviour {
 	{
 		if (Input.GetMouseButtonDown(0))
 		{
-			Debug.Log("courge");
 			nb++;
-			if (nb == 5)
+			if (nb == 6)
 				nb = 0;
 			anim.SetInteger("tuto", nb);
 		}		

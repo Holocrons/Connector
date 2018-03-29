@@ -85,6 +85,7 @@
      <Compile Include="Assets\scripts\shootWater.cs" />
      <Compile Include="Assets\scripts\vac.cs" />
      <Compile Include="Assets\scripts\water.cs" />
+     <Compile Include="Assets\SelectLevel.cs" />
      <Compile Include="Assets\stop.cs" />
      <Compile Include="Assets\toaster.cs" />
      <Compile Include="Assets\touchWater.cs" />

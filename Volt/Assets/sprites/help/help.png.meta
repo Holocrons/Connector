@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 985cccd17b746a5459731ee25d1d6485
-timeCreated: 1521824522
+timeCreated: 1522064357
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -32,6 +32,12 @@ TextureImporter:
     21300050: help_25
     21300052: help_26
     21300054: help_27
+    21300056: help_28
+    21300058: help_29
+    21300060: help_30
+    21300062: help_31
+    21300064: help_32
+    21300066: help_33
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -110,9 +116,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 960
-        width: 640
-        height: 160
+        y: 1152
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,10 +129,10 @@ TextureImporter:
       name: help_1
       rect:
         serializedVersion: 2
-        x: 640
-        y: 960
-        width: 640
-        height: 160
+        x: 656
+        y: 1152
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,10 +143,10 @@ TextureImporter:
       name: help_2
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 960
-        width: 640
-        height: 160
+        x: 1312
+        y: 1152
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,10 +157,10 @@ TextureImporter:
       name: help_3
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 960
-        width: 640
-        height: 160
+        x: 1968
+        y: 1152
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +171,10 @@ TextureImporter:
       name: help_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 800
-        width: 640
-        height: 160
+        x: 2624
+        y: 1152
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,10 +185,10 @@ TextureImporter:
       name: help_5
       rect:
         serializedVersion: 2
-        x: 640
-        y: 800
-        width: 640
-        height: 160
+        x: 0
+        y: 960
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,10 +199,10 @@ TextureImporter:
       name: help_6
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 800
-        width: 640
-        height: 160
+        x: 656
+        y: 960
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +213,10 @@ TextureImporter:
       name: help_7
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 800
-        width: 640
-        height: 160
+        x: 1312
+        y: 960
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,10 +227,10 @@ TextureImporter:
       name: help_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 640
-        width: 640
-        height: 160
+        x: 1968
+        y: 960
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +241,10 @@ TextureImporter:
       name: help_9
       rect:
         serializedVersion: 2
-        x: 640
-        y: 640
-        width: 640
-        height: 160
+        x: 2624
+        y: 960
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,10 +255,10 @@ TextureImporter:
       name: help_10
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 640
-        width: 640
-        height: 160
+        x: 0
+        y: 768
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,10 +269,10 @@ TextureImporter:
       name: help_11
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 640
-        width: 640
-        height: 160
+        x: 656
+        y: 768
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,10 +283,10 @@ TextureImporter:
       name: help_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 480
-        width: 640
-        height: 160
+        x: 1312
+        y: 768
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +297,10 @@ TextureImporter:
       name: help_13
       rect:
         serializedVersion: 2
-        x: 640
-        y: 480
-        width: 640
-        height: 160
+        x: 1968
+        y: 768
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +311,10 @@ TextureImporter:
       name: help_14
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 480
-        width: 640
-        height: 160
+        x: 0
+        y: 576
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,10 +325,10 @@ TextureImporter:
       name: help_15
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 480
-        width: 640
-        height: 160
+        x: 656
+        y: 576
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,10 +339,10 @@ TextureImporter:
       name: help_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 320
-        width: 640
-        height: 160
+        x: 1312
+        y: 576
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,10 +353,10 @@ TextureImporter:
       name: help_17
       rect:
         serializedVersion: 2
-        x: 640
-        y: 320
-        width: 640
-        height: 160
+        x: 1968
+        y: 576
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,10 +367,10 @@ TextureImporter:
       name: help_18
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 320
-        width: 640
-        height: 160
+        x: 0
+        y: 384
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -375,10 +381,10 @@ TextureImporter:
       name: help_19
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 320
-        width: 640
-        height: 160
+        x: 656
+        y: 384
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,10 +395,10 @@ TextureImporter:
       name: help_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 158
-        width: 640
-        height: 160
+        x: 1312
+        y: 384
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,10 +409,10 @@ TextureImporter:
       name: help_21
       rect:
         serializedVersion: 2
-        x: 640
-        y: 160
-        width: 640
-        height: 160
+        x: 1968
+        y: 384
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -417,10 +423,10 @@ TextureImporter:
       name: help_22
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 160
-        width: 640
-        height: 160
+        x: 0
+        y: 192
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,10 +437,10 @@ TextureImporter:
       name: help_23
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 160
-        width: 640
-        height: 160
+        x: 656
+        y: 192
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,10 +451,10 @@ TextureImporter:
       name: help_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 640
-        height: 160
+        x: 1312
+        y: 192
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,10 +465,10 @@ TextureImporter:
       name: help_25
       rect:
         serializedVersion: 2
-        x: 640
-        y: 0
-        width: 640
-        height: 160
+        x: 1968
+        y: 192
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -473,10 +479,10 @@ TextureImporter:
       name: help_26
       rect:
         serializedVersion: 2
-        x: 1280
+        x: 0
         y: 0
-        width: 640
-        height: 160
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -487,10 +493,38 @@ TextureImporter:
       name: help_27
       rect:
         serializedVersion: 2
-        x: 1920
+        x: 656
         y: 0
-        width: 640
-        height: 160
+        width: 656
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: help_28
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 0
+        width: 656
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: help_29
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 0
+        width: 656
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
