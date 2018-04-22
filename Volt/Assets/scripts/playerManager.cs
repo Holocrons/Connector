@@ -28,7 +28,11 @@ public class playerManager : MonoBehaviour {
 	
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.R))
+		{
+			humanMove.ok = false;
+			phone.takePhone = false;
 			SceneManager.LoadScene(next - 1);
+		}
 		curent.layer = 2;
 		if (curent.tag == "Usb")
 			canTp = true;

@@ -6,13 +6,25 @@ using UnityEngine.SceneManagement;
 public class phone : MonoBehaviour {
 
 	public static bool GameIsPaused = false;
-	 public GameObject pauseMenuUI;
-	
+	public GameObject pauseMenuUI;
+    public static bool takePhone = false;
+    public GameObject hand;
+    public GameObject player;
+
 	public void Use () {
 			GetComponent<Animator>().SetBool("ring", true);
-			Pause();
+            humanMove.ok = true;
 	}
     
+    void Update()
+    {
+        if (takePhone == true)
+        {
+            player.transform.position = transform.position;
+            transform.position = hand.transform.position;    
+        }
+    }
+
     void Pause()
     {
         pauseMenuUI.SetActive(true);

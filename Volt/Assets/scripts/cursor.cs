@@ -36,7 +36,7 @@ public class cursor : MonoBehaviour {
 			tmp = other.GetComponentsInChildren<Animator>();
 			if (tmp.Length == 1)
 				tmp[0].SetBool("info", true);
-			else 
+			else if (other.name != "socket_24x24") 
 				tmp[1].SetBool("info", true);
 		}
 	}
@@ -49,7 +49,7 @@ public class cursor : MonoBehaviour {
 			tmp = other.GetComponentsInChildren<Animator>();
 			if (tmp.Length == 1)
 				tmp[0].SetBool("info", false);
-			else 
+			else if (other.name != "socket_24x24")
 				tmp[1].SetBool("info", false);
 		}
 	}
