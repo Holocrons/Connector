@@ -10,6 +10,7 @@ TagManager:
   - salt
   - non
   - water
+  - note
   layers:
   - Default
   - TransparentFX

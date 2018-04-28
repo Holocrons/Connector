@@ -147,6 +147,8 @@ public class playerManager : MonoBehaviour {
 				curent.GetComponent<toaster>().Use();
 			else if (curent.GetComponent<phone>() != null)
 				curent.GetComponent<phone>().Use();
+			else if (curent.GetComponent<bass>() != null)
+				curent.GetComponent<bass>().Use();
 			else if (curent.GetComponentInChildren<color>() != null)
 			{
 				if (curent.GetComponentInChildren<color>().Use() == -1)
