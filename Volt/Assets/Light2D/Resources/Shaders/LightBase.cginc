@@ -90,7 +90,7 @@ half4 light2_fixed_frag (light2d_fixed_v2f i) : COLOR
 	half2 centerPos = i.centerPos;
 	#endif
 
-	half sub = 1.0/PATH_TRACKING_SAMPLES;
+	half sub = 1.0/90;
 	half len = length((thisPos - centerPos)*i.aspect);
 	half m = _ObstacleMul*sub*len;
 			
@@ -98,7 +98,7 @@ half4 light2_fixed_frag (light2d_fixed_v2f i) : COLOR
 
 	half pos = 0;
 	
-	for(int i = 0; i < PATH_TRACKING_SAMPLES; i++)
+	for(int i = 0; i < 90; i++)
 	{
 		pos += sub; 
 		half4 obstacle = tex2D(_ObstacleTex, lerp(centerPos, thisPos, pos));

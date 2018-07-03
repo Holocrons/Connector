@@ -54,14 +54,6 @@
      <Compile Include="Assets\Light2D\Editor\Light2DMenu.cs" />
      <Compile Include="Assets\Light2D\Editor\LightingSystemCreationWindow.cs" />
      <Compile Include="Assets\Light2D\Editor\LightingSystemEditor.cs" />
-     <Compile Include="Assets\Light2D\Examples\Editor\BlockTilingInfoDrawer.cs" />
-     <Compile Include="Assets\Light2D\Examples\Editor\EditorCameraWindow.cs" />
-     <Compile Include="Assets\Light2D\Examples\Editor\HingeAutoRotatorEditor.cs" />
-     <Compile Include="Assets\Light2D\Examples\Editor\HingeJointUtil.cs" />
-     <Compile Include="Assets\Light2D\Examples\Editor\LandingLegEditor.cs" />
-     <Compile Include="Assets\Light2D\Examples\Editor\Point2Drawer.cs" />
-     <Compile Include="Assets\Light2D\Examples\Editor\ReadOnlyDrawer.cs" />
-     <Compile Include="Assets\Light2D\Examples\Editor\ScriptableObjectCreatorWindow.cs" />
      <None Include="Assets\8-Bit_Action_Free\Readme.txt" />
      <None Include="Assets\Light2D\Resources\Shaders\FastBlur.shader" />
      <None Include="Assets\Light2D\Resources\Shaders\Light70.shader" />
@@ -81,10 +73,8 @@
      <None Include="Assets\Light2D\Resources\Shaders\Light40.shader" />
      <None Include="Assets\Light2D\Resources\Shaders\Light90.shader" />
      <None Include="Assets\Light2D\Resources\Shaders\LightOverlaySingleCamera.shader" />
-     <None Include="Assets\Light2D\Examples\Resources\Shaders\TransparentVertexColor.shader" />
      <None Include="Assets\Light2D\Resources\Shaders\LightOverlay.shader" />
      <None Include="Assets\Light2D\Resources\Shaders\TransparentDualColorNormalMapped.shader" />
-     <None Include="Assets\Light2D\Examples\Resources\Shaders\Noise.cginc" />
      <None Include="Assets\Light2D\Resources\Shaders\TransparentNormalMapped.shader" />
      <None Include="Assets\Light2D\Resources\Shaders\AlphaReplace.shader" />
      <None Include="Assets\Light2D\Resources\Shaders\Light30.shader" />
